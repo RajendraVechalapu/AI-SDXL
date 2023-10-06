@@ -15,7 +15,7 @@ This is a gradio demo with web ui supporting [Stable Diffusion XL 1.0](https://g
 
 This is forked from [StableDiffusion v2.1 Demo WebUI](https://huggingface.co/spaces/gradio-client-demos/stable-diffusion). Refer to the git commits to see the changes.
 
-**Update:** [SD XL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) is released and our Web UI demo supports it! No application is needed to get the weights! Launch the colab to get started. You can run this demo on Colab for free even on T4. <a target="_blank" href="https://colab.research.google.com/github/RajendraVechalapu/stable-diffusion-xl-demo/blob/main/Stable_Diffusion_XL_Demo.ipynb">
+**Update:** [SD XL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0) is released and our Web UI demo supports it! No application is needed to get the weights! Launch the colab to get started. You can run this demo on Colab for free even on T4. <a target="_blank" href="https://colab.research.google.com/github/RajendraVechalapu/stable-diffusion-xl-rv/blob/main/Stable_Diffusion_XL_Demo.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
 **Update:** Multiple GPUs are supported. You can easily spread the workload to different GPUs by setting `MULTI_GPU=True`. This uses data parallelism to split the workload to different GPUs.
@@ -102,4 +102,4 @@ Turn on `torch.compile` will make overall inference faster. However, this will a
 * `SHARE=true/false` creates public link (useful for sharing and on colab)
 * `MULTI_GPU=true/false` enables data parallelism on multi gpus.
 
-## If you enjoy this demo, please give [this repo](https://github.com/RajendraVechalapu/stable-diffusion-xl-demo) a star ⭐.
+## If you enjoy this demo, please give [this repo](https://github.com/RajendraVechalapu/stable-diffusion-xl-rv) a star ⭐.
