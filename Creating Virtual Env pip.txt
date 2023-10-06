@@ -1,0 +1,6 @@
+#To Install all pip commands
+mkdir myenv
+python -m venv myenv
+myenv\Scripts\Activate.ps1
+#pip install package-name
+#deactivate
